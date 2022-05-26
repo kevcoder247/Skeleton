@@ -11,3 +11,18 @@ li{
     margin-left: 1rem;
     list-style: none;
 }
+.right{
+    width: 100%;
+}
+.right img{
+    width: 100%;
+}
+.left{
+    padding-top: 5rem;
+}
+@media(max-width:600px) {
+    .left{
+        text-align:center;
+        padding-bottom: 3rem;
+    }
+}
