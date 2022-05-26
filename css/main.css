@@ -4,19 +4,19 @@ body{
 /*============================ 
         TEST BORDERS
 ==============================*/
-.container{
+/* .container{
     border: 2px solid red;
 }
 .hero{
     border: 2px solid yellow;
 }
-/* .row{
+.row{
     border: 1px solid blue;
-} */
+}
 .one-half{
     border: 2px solid blue;
 }
-/* .column{
+.column{
     border: 2px solid green;
 } */
 /* ==================================== */
@@ -41,6 +41,12 @@ li{
 }
 .table{
     margin: 6rem 0;
+}
+.letter{
+    width: 100%
+}
+.letter img{
+    width: 100%
 }
 @media(max-width:600px) {
     .left{
