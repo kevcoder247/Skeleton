@@ -1,6 +1,25 @@
 body{
     background-color: darkgrey;
 }
+/*============================ 
+        TEST BORDERS
+==============================*/
+.container{
+    border: 2px solid red;
+}
+.hero{
+    border: 2px solid yellow;
+}
+/* .row{
+    border: 1px solid blue;
+} */
+.one-half{
+    border: 2px solid blue;
+}
+/* .column{
+    border: 2px solid green;
+} */
+/* ==================================== */
 .nav{
     padding: 2rem 0;
 }
@@ -19,6 +38,9 @@ li{
 }
 .left{
     padding-top: 5rem;
+}
+.table{
+    margin: 6rem 0;
 }
 @media(max-width:600px) {
     .left{
